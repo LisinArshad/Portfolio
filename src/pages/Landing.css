@@ -1,0 +1,69 @@
+.hhh{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    /* background-color: #f0f4ff; */
+}
+
+.portfolio {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.text-section {
+    text-align: left;
+}
+
+.text-section h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin: 0;
+}
+
+.text-section p {
+    font-size: 1.5em;
+    color: #666;
+}
+
+.about-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #6c41f7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.about-button i {
+    margin-right: 8px;
+}
+
+.image-section img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: #fff;
+}
+
+/* For responsive alignment */
+@media (max-width: 767px) {
+    .portfolio {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .text-section {
+        margin-bottom: 20px;
+    }
+}
